@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Classic));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -57,7 +56,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::AIGames.Properties.Resources.bcg;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label7);
@@ -181,7 +180,7 @@
             // 
             // button12
             // 
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
+            this.button12.BackgroundImage = global::AIGames.Properties.Resources.btn2;
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -196,7 +195,7 @@
             // 
             // button11
             // 
-            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
+            this.button11.BackgroundImage = global::AIGames.Properties.Resources.btn2;
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -211,7 +210,7 @@
             // 
             // button10
             // 
-            this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
+            this.button10.BackgroundImage = global::AIGames.Properties.Resources.btn2;
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -226,7 +225,7 @@
             // 
             // button9
             // 
-            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
+            this.button9.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -240,7 +239,7 @@
             // 
             // button8
             // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
+            this.button8.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -254,7 +253,7 @@
             // 
             // button7
             // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
+            this.button7.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -268,7 +267,7 @@
             // 
             // button6
             // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -282,7 +281,7 @@
             // 
             // button5
             // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -296,7 +295,7 @@
             // 
             // button4
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -310,7 +309,7 @@
             // 
             // button3
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -324,7 +323,7 @@
             // 
             // button2
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -338,7 +337,7 @@
             // 
             // button1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImage = global::AIGames.Properties.Resources.neonFrame2_1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
